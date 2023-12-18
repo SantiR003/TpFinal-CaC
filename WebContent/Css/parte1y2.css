@@ -1,0 +1,107 @@
+html
+{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/**PARTE 1**/
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 8rem;
+    background-color: #353A40;
+
+    z-index: 10;
+}
+/*Parte del logo*/
+#logo{
+    display: flex;
+    flex: 40%;
+    margin: 1rem 5rem 1rem 9rem;
+    text-align: center;
+}
+
+#logo h2{
+    color: white;
+    margin-top: 2rem;
+}
+
+/*Hipervinculos*/
+.hipervinculos a{
+    text-decoration: none;
+    color: #9A9EA1;
+    font-size: 1.5rem;
+}
+
+.hipervinculos a:hover{
+    color: white;
+}
+
+.hipervinculos
+{
+    display: flex;
+    flex: 60%;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 5rem;
+    gap: 0.5rem;
+}
+
+.hipervinculos a span{
+    color: #28A643;
+}
+
+/************************************************************/
+/*2da Parte*/
+#imagenesBs img{
+    filter: brightness(50%);   
+    height: 70rem;
+}
+
+
+.textoCarousel
+{
+    display: flex;
+    flex: 30%;
+    flex-direction: column;
+    align-items:end;
+    font-size: 2rem;
+    text-align: end;
+    margin-bottom: 15%;
+    margin-left: 40rem ; 
+}
+.textoCarousel h2{
+    font-size: 3.5rem;
+}
+#botonesCarrousel{
+    display: flex;
+    flex: 50%;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    gap: 1.5rem;
+
+}
+
+#botonesCarrousel button{
+   padding: 0.5%;
+   width: 15rem;
+   height: 3.5rem;
+   font-size: 80%;
+}
+
+#botonesCarrousel a{
+    text-decoration: none;
+    color: white
+}
+#botonesCarrousel a:hover{
+    
+    color: black;
+}
+
+
+/**********************************************************/
+
