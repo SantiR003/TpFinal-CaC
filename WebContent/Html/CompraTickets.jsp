@@ -115,21 +115,15 @@
     <footer>
         <div class="footercito">
          <a href=""> Preguntas Frecuentes</a>
-        
-        <a href="">Contactanos</a>
-        <a href="">Prensa</a>
-        <a href="">Conferencias</a>
-        
-          <a href="">Terminos y 
-                    condiciones</a>
-       
-        
-        <a href="">Privacidad</a>
-        <a href="">Estudiantes</a>
-
+         <a href="">Contactanos</a>
+         <a href="">Prensa</a>
+         <a href="">Conferencias</a>
+         <a href="">Terminos y condiciones</a>
+         <a href="">Privacidad</a>
+         <a href="">Estudiantes</a>
         </div>
 
-        </footer>
+    </footer>
     
 </body>
 </html>

@@ -134,8 +134,21 @@ padding: 0.4rem ;
     height: 3rem;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Establecer el alto mínimo del cuerpo al 100% de la altura visible */
+    position: relative;
+}
+
+
 /***********************************************************************/
 /**************PARTE 5******/
+
+footer {
+	
+	margin-top:19vh;
+}
 
 .footercito a{
     text-decoration: none;

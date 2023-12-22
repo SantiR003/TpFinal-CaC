@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+
+footer {
+	
+	margin-top:19vh;
+}
+
+header{
+	margin-bottom:5rem;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  div {
+    margin: 0 auto;
+  }
+
+  table {
+    width: 90%;
+    margin: 20px auto; 
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  thead th, tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center; 
+  }
+
+  thead th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  tbody td {
+    background-color: #f2f2f2;
+    vertical-align: middle; 
+  }
+
+  tbody tr:nth-child(odd) td {
+    background-color: #fff;
+  }
+
+  tbody tr:hover {
+    background-color: #d4edda;
+  }
+
+  td:last-child {
+    text-align: center;
+    cursor: pointer;
+    color: #dc3545;
+  }
+
+  td:last-child:hover {
+    text-decoration: underline;
+    background-color: #ccc;
+  }
+
+  .hidden {
+    display: none;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+
+#ticketsTitle{
+
+ color: rgb(255, 174, 0);
+}
+
+#oradoresTitle{
+    color: #96C93E;
+}
+
+button{
+    width: auto;
+    font-size: 1.3rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#botonTickets{
+    background-color: rgb(255, 174, 0);
+}
+#botonOradores{
+    background-color: #96C93E;
+}
+
+button:hover{
+ transform: scale(1.2,1.2);
+}
